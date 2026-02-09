@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestor de Tareas</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<header>
+    <h1>Gestor de Tareas</h1>
+    <p>Organizá tu día como corresponde</p>
+</header>
+
+<main class="container">
+
+    <section class="card">
+        <h2>Nueva tarea</h2>
+
+        <div class="form-group">
+            <label>Nombre</label>
+            <input id="name" type="text" placeholder="Ej: Entrenar">
+        </div>
+
+        <div class="form-group">
+            <label>Descripción</label>
+            <input id="description" type="text" placeholder="Ej: Gym 18:30">
+        </div>
+
+        <button class="primary" onclick="crearTarea()">Agregar tarea</button>
+    </section>
+
+    <section class="card">
+        <h2>Listado de tareas</h2>
+        <ul id="lista-tareas" class="task-list"></ul>
+    </section>
+
+</main>
+
+<footer>
+    <span>ToDo App – C# + Web</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
