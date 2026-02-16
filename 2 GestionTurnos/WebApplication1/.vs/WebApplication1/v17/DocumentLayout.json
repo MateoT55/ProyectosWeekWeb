@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\gestorturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\gestorturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 100,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T20:42:46.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TurnosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Controllers\\TurnosController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TurnosController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Controllers\\TurnosController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\TurnosController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T20:46:51.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GestorTurno.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\GestorTurno.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\GestorTurno.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\GestorTurno.cs",
+              "RelativeToolTip": "WebApplication1\\GestorTurno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T20:47:24.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Turno.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Turno.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Turno.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Turno.cs",
+              "RelativeToolTip": "WebApplication1\\Turno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T20:47:48.488Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 100,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

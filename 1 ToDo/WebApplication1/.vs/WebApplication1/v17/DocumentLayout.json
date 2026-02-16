@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Proyecto Web 1\\Web\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\1 ToDo\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\proyecto web 1\\web\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\proyecto web 1\\web\\webapplication1\\webapplication1\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\1 todo\\webapplication1\\webapplication1\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\proyecto web 1\\web\\webapplication1\\webapplication1\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\1 todo\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\1 todo\\webapplication1\\webapplication1\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\proyecto web 1\\web\\webapplication1\\webapplication1\\gestortarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\1 todo\\webapplication1\\webapplication1\\gestortarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EEF9797-FD5C-4942-A0E2-963ED055F08D}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\gestortarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 100,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,11 +38,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Web 1\\Web\\WebApplication1\\WebApplication1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\1 ToDo\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Web 1\\Web\\WebApplication1\\WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\1 ToDo\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TareasController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Web 1\\Web\\WebApplication1\\WebApplication1\\Controllers\\TareasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\1 ToDo\\WebApplication1\\WebApplication1\\Controllers\\TareasController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TareasController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Web 1\\Web\\WebApplication1\\WebApplication1\\Controllers\\TareasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\1 ToDo\\WebApplication1\\WebApplication1\\Controllers\\TareasController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\TareasController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T03:08:29.472Z",
               "EditorCaption": ""
@@ -66,11 +66,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "GestorTarea.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Web 1\\Web\\WebApplication1\\WebApplication1\\GestorTarea.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\1 ToDo\\WebApplication1\\WebApplication1\\GestorTarea.cs",
               "RelativeDocumentMoniker": "WebApplication1\\GestorTarea.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Web 1\\Web\\WebApplication1\\WebApplication1\\GestorTarea.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\1 ToDo\\WebApplication1\\WebApplication1\\GestorTarea.cs",
               "RelativeToolTip": "WebApplication1\\GestorTarea.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwAEAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T03:10:06.819Z",
               "EditorCaption": ""
@@ -79,11 +79,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Tarea.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Proyecto Web 1\\Web\\WebApplication1\\WebApplication1\\Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\1 ToDo\\WebApplication1\\WebApplication1\\Tarea.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Tarea.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Proyecto Web 1\\Web\\WebApplication1\\WebApplication1\\Tarea.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\1 ToDo\\WebApplication1\\WebApplication1\\Tarea.cs",
               "RelativeToolTip": "WebApplication1\\Tarea.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T03:13:25.545Z",
               "EditorCaption": ""

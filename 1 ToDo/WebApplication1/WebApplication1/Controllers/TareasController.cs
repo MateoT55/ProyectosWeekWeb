@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApplication1;
 
-namespace ToDoApi.Controllers
+namespace WebApplication1.Controllers
 {
     [ApiController]
     [Route("api/tareas")]
