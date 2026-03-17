@@ -498,23 +498,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mateo\\.nuget\\packages\\": {},
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\3 GestorHabitos\\GestorHabitos\\GestorHabitos\\GestorHabitos.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\3 GestorHabitos\\GestorHabitos\\GestorHabitos\\GestorHabitos.csproj",
       "projectName": "GestorHabitos",
-      "projectPath": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\3 GestorHabitos\\GestorHabitos\\GestorHabitos\\GestorHabitos.csproj",
-      "packagesPath": "C:\\Users\\Mateo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\3 GestorHabitos\\GestorHabitos\\GestorHabitos\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\3 GestorHabitos\\GestorHabitos\\GestorHabitos\\GestorHabitos.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\3 GestorHabitos\\GestorHabitos\\GestorHabitos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

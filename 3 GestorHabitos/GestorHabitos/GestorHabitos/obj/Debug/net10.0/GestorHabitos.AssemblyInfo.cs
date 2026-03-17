@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestorHabitos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93aba18e7e79db7f3ac9131c05dafbd270ed5054")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce3c70c1aed030e646d8e17838fa4e7db44ae9d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestorHabitos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestorHabitos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
