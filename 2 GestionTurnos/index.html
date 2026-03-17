@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Turnos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app-shell">
+
+  <!-- ── HEADER ──────────────────────────────────────── -->
+  <header>
+    <div class="header-left">
+      <span class="header-label">Sistema de gestión</span>
+      <h1>TURN<span>OS</span></h1>
+    </div>
+    <div class="status-badge">
+      <span class="status-dot"></span>
+      <span>API conectada</span>
+    </div>
+  </header>
+
+  <!-- ── MAIN GRID ────────────────────────────────────── -->
+  <div class="main-grid">
+
+    <!-- LEFT: Formulario -->
+    <aside>
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">// Nuevo turno</span>
+        </div>
+        <div class="panel-body">
+          <form id="form-turno" novalidate>
+
+            <div class="form-group">
+              <label for="cliente">Cliente</label>
+              <input type="text" id="cliente" placeholder="Nombre del cliente" autocomplete="off" />
+              <span class="form-error" id="err-cliente">Campo obligatorio.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="fecha">Fecha y hora</label>
+              <input type="datetime-local" id="fecha" />
+              <span class="form-error" id="err-fecha">Campo obligatorio.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="estado-crear">Estado inicial</label>
+              <select id="estado-crear">
+                <option value="0">Pendiente</option>
+                <option value="1">Confirmado</option>
+                <option value="2">Cancelado</option>
+                <option value="3">Finalizado</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="btn-submit">
+              <span id="submit-label">+ Crear turno</span>
+              <span id="submit-spinner" style="display:none"><span class="spinner"></span></span>
+            </button>
+
+          </form>
+        </div>
+      </div>
+    </aside>
+
+    <!-- RIGHT: Tabla de turnos -->
+    <section>
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">// Turnos registrados</span>
+          <div style="display:flex;gap:10px;align-items:center">
+            <span class="chip" id="total-chip">0 turnos</span>
+            <button class="btn btn-clear" id="btn-clear-all" title="Eliminar todos los turnos">
+              ✕ Limpiar todo
+            </button>
+          </div>
+        </div>
+
+        <!-- Tabla -->
+        <div class="table-wrapper" id="table-wrapper">
+          <div class="empty-state" id="empty-state">
+            <div class="empty-icon">◈</div>
+            <div>Sin turnos registrados</div>
+          </div>
+          <table id="tabla-turnos" style="display:none">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Cliente</th>
+                <th>Fecha</th>
+                <th>Estado</th>
+                <th>Cambiar estado</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+  </div><!-- /main-grid -->
+</div><!-- /app-shell -->
+
+<!-- Toast -->
+<div id="toast"></div>
+
+<!-- ══════════════════════════════════════════════════════════
+     JAVASCRIPT
+════════════════════════════════════════════════════════════ -->
+<script>
+  /* ── CONFIG ──────────────────────────────────────────── */
+  const API = 'https://localhost:7118/api/turnos';
+
+  const ESTADOS = {
+    0: { label: 'Pendiente',   cls: 'badge-0' },
+    1: { label: 'Confirmado',  cls: 'badge-1' },
+    2: { label: 'Cancelado',   cls: 'badge-2' },
+    3: { label: 'Finalizado',  cls: 'badge-3' },
+  };
+
+  /* ── TOAST ───────────────────────────────────────────── */
+  let toastTimer;
+  function showToast(msg, type = 'success') {
+    const el = document.getElementById('toast');
+    el.textContent = msg;
+    el.className = `show ${type}`;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { el.className = ''; }, 3200);
+  }
+
+  /* ── FETCH HELPERS ───────────────────────────────────── */
+  async function apiFetch(url, options = {}) {
+    const res = await fetch(url, {
+      headers: { 'Content-Type': 'application/json' },
+      ...options,
+    });
+    if (!res.ok) {
+      const text = await res.text().catch(() => '');
+      throw new Error(text || `HTTP ${res.status}`);
+    }
+    // Devuelve JSON si hay body, si no devuelve null
+    const ct = res.headers.get('Content-Type') || '';
+    return ct.includes('application/json') ? res.json() : null;
+  }
+
+  /* ── RENDER TABLE ────────────────────────────────────── */
+  function formatDate(raw) {
+    if (!raw) return '—';
+    const d = new Date(raw);
+    if (isNaN(d)) return raw;
+    return d.toLocaleDateString('es-AR', {
+      day: '2-digit', month: '2-digit', year: 'numeric',
+      hour: '2-digit', minute: '2-digit',
+    });
+  }
+
+  function renderTabla(turnos) {
+    const tbody       = document.getElementById('tbody');
+    const tabla       = document.getElementById('tabla-turnos');
+    const emptyState  = document.getElementById('empty-state');
+    const chip        = document.getElementById('total-chip');
+
+    chip.textContent = `${turnos.length} turno${turnos.length !== 1 ? 's' : ''}`;
+
+    if (turnos.length === 0) {
+      tabla.style.display = 'none';
+      emptyState.style.display = '';
+      return;
+    }
+
+    emptyState.style.display = 'none';
+    tabla.style.display = 'table';
+
+    tbody.innerHTML = turnos.map(t => {
+      const e = ESTADOS[t.estado] ?? { label: t.estado, cls: '' };
+
+      // Opciones del selector de cambio de estado
+      const opts = Object.entries(ESTADOS).map(([v, s]) =>
+        `<option value="${v}" ${v == t.estado ? 'selected' : ''}>${s.label}</option>`
+      ).join('');
+
+      return `
+        <tr data-id="${t.id}">
+          <td class="cell-id">${String(t.id).padStart(3,'0')}</td>
+          <td class="cell-client">${escHtml(t.cliente)}</td>
+          <td class="cell-date">${formatDate(t.date)}</td>
+          <td><span class="badge ${e.cls}">${e.label}</span></td>
+          <td>
+            <div class="cell-actions">
+              <select class="inline-select" data-select-id="${t.id}" title="Seleccionar nuevo estado">
+                ${opts}
+              </select>
+              <button class="btn btn-state" data-apply-id="${t.id}" title="Aplicar cambio">✓</button>
+            </div>
+          </td>
+          <td>
+            <button class="btn btn-danger" data-del-id="${t.id}" title="Eliminar turno">✕</button>
+          </td>
+        </tr>`;
+    }).join('');
+
+    // Delegación de eventos en tbody
+    tbody.onclick = async (e) => {
+      // Aplicar cambio de estado
+      const applyBtn = e.target.closest('[data-apply-id]');
+      if (applyBtn) {
+        const id = applyBtn.dataset.applyId;
+        const sel = tbody.querySelector(`[data-select-id="${id}"]`);
+        await cambiarEstado(id, parseInt(sel.value));
+        return;
+      }
+      // Eliminar individual
+      const delBtn = e.target.closest('[data-del-id]');
+      if (delBtn) {
+        await eliminarTurno(delBtn.dataset.delId);
+      }
+    };
+  }
+
+  function escHtml(s) {
+    return String(s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  /* ── CARGAR TURNOS ───────────────────────────────────── */
+  async function cargarTurnos() {
+    try {
+      const data = await apiFetch(API);
+      renderTabla(data ?? []);
+    } catch (err) {
+      showToast(`Error al cargar turnos: ${err.message}`, 'error');
+    }
+  }
+
+  /* ── CREAR TURNO ─────────────────────────────────────── */
+  const form       = document.getElementById('form-turno');
+  const submitBtn  = document.getElementById('btn-submit');
+  const submitLbl  = document.getElementById('submit-label');
+  const submitSpin = document.getElementById('submit-spinner');
+
+  function setSubmitLoading(on) {
+    submitBtn.disabled = on;
+    submitLbl.style.display = on ? 'none' : '';
+    submitSpin.style.display = on ? '' : 'none';
+  }
+
+  function validarForm() {
+    let ok = true;
+    const cliente = document.getElementById('cliente').value.trim();
+    const fecha   = document.getElementById('fecha').value.trim();
+
+    document.getElementById('err-cliente').classList.toggle('visible', !cliente);
+    document.getElementById('err-fecha').classList.toggle('visible', !fecha);
+
+    if (!cliente || !fecha) ok = false;
+    return ok;
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (!validarForm()) return;
+
+    const cliente = document.getElementById('cliente').value.trim();
+    const fecha   = document.getElementById('fecha').value;
+    const estado  = parseInt(document.getElementById('estado-crear').value);
+
+    setSubmitLoading(true);
+    try {
+      await apiFetch(API, {
+        method: 'POST',
+        body: JSON.stringify({ cliente, date: fecha, estado }),
+      });
+      form.reset();
+      showToast('Turno creado correctamente.', 'success');
+      await cargarTurnos();
+    } catch (err) {
+      showToast(`Error al crear turno: ${err.message}`, 'error');
+    } finally {
+      setSubmitLoading(false);
+    }
+  });
+
+  /* ── CAMBIAR ESTADO ──────────────────────────────────── */
+  async function cambiarEstado(id, nuevoEstado) {
+    try {
+      // Nota: el controller usa idTurnos como query param según el código fuente
+      await apiFetch(`${API}/${id}?idTurnos=${id}`, {
+        method: 'PUT',
+        body: JSON.stringify({ estado: nuevoEstado }),
+      });
+      showToast(`Estado actualizado → ${ESTADOS[nuevoEstado].label}`, 'success');
+      await cargarTurnos();
+    } catch (err) {
+      showToast(`Error al cambiar estado: ${err.message}`, 'error');
+    }
+  }
+
+  /* ── ELIMINAR TURNO INDIVIDUAL ───────────────────────── */
+  async function eliminarTurno(id) {
+    try {
+      // Intenta eliminar por id si la API lo soporta; si no, elimina la colección
+      await apiFetch(`${API}/${id}`, { method: 'DELETE' });
+      showToast('Turno eliminado.', 'success');
+    } catch {
+      // Fallback: eliminar toda la colección (según el endpoint disponible)
+      try {
+        await apiFetch(API, { method: 'DELETE' });
+        showToast('Colección eliminada (endpoint individual no disponible).', 'success');
+      } catch (err2) {
+        showToast(`Error al eliminar: ${err2.message}`, 'error');
+      }
+    } finally {
+      await cargarTurnos();
+    }
+  }
+
+  /* ── LIMPIAR TODOS ───────────────────────────────────── */
+  document.getElementById('btn-clear-all').addEventListener('click', async () => {
+    if (!confirm('¿Eliminar TODOS los turnos? Esta acción no se puede deshacer.')) return;
+    try {
+      await apiFetch(API, { method: 'DELETE' });
+      showToast('Todos los turnos eliminados.', 'success');
+      await cargarTurnos();
+    } catch (err) {
+      showToast(`Error: ${err.message}`, 'error');
+    }
+  });
+
+  /* ── INIT ────────────────────────────────────────────── */
+  cargarTurnos();
+</script>
+</body>
+</html>

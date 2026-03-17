@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "ToDoApi.Controllers.TareasController",
+    "ContainingType": "WebApplication1.Controllers.TareasController",
     "Method": "ObtenerTodas",
     "RelativePath": "api/tareas",
     "HttpMethod": "GET",
@@ -10,7 +10,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ToDoApi.Controllers.TareasController",
+    "ContainingType": "WebApplication1.Controllers.TareasController",
     "Method": "CrearTarea",
     "RelativePath": "api/tareas",
     "HttpMethod": "POST",
@@ -19,14 +19,14 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "ToDoApi.Controllers.TareaDTO",
+        "Type": "WebApplication1.Controllers.TareaDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ToDoApi.Controllers.TareasController",
+    "ContainingType": "WebApplication1.Controllers.TareasController",
     "Method": "EliminarTodas",
     "RelativePath": "api/tareas",
     "HttpMethod": "DELETE",
@@ -36,7 +36,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ToDoApi.Controllers.TareasController",
+    "ContainingType": "WebApplication1.Controllers.TareasController",
     "Method": "MarcarCompletada",
     "RelativePath": "api/tareas/{id}",
     "HttpMethod": "PUT",
@@ -52,7 +52,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ToDoApi.Controllers.TareasController",
+    "ContainingType": "WebApplication1.Controllers.TareasController",
     "Method": "ObtenerCompletadas",
     "RelativePath": "api/tareas/completadas",
     "HttpMethod": "GET",
@@ -62,7 +62,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ToDoApi.Controllers.TareasController",
+    "ContainingType": "WebApplication1.Controllers.TareasController",
     "Method": "ObtenerPendientes",
     "RelativePath": "api/tareas/pendientes",
     "HttpMethod": "GET",

@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\mateo\\onedrive\\escritorio\\desarrollo c# .net\\web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\mateo\\onedrive\\escritorio\\desarrollo c# .net\\web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\gestorturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\gestorturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\gestorturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\gestorturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\mateo\\onedrive\\escritorio\\desarrollo c# .net\\web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\mateo\\onedrive\\escritorio\\desarrollo c# .net\\web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\cambiarestadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\cambiarestadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|c:\\users\\mateo\\onedrive\\escritorio\\desarrollo c# .net\\web\\practica\\proyectosweekweb\\2 gestionturnos\\webapplication1\\webapplication1\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330A31FA-085B-43FC-B290-6BCF64ADBED5}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 100,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,59 +38,74 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T20:42:46.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TurnosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Controllers\\TurnosController.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Controllers\\TurnosController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TurnosController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Controllers\\TurnosController.cs",
+              "ToolTip": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Controllers\\TurnosController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\TurnosController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T20:46:51.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GestorTurno.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\GestorTurno.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\GestorTurno.cs",
               "RelativeDocumentMoniker": "WebApplication1\\GestorTurno.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\GestorTurno.cs",
+              "ToolTip": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\GestorTurno.cs",
               "RelativeToolTip": "WebApplication1\\GestorTurno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T20:47:24.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Turno.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Turno.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Turno.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Turno.cs",
-              "RelativeToolTip": "WebApplication1\\Turno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CambiarEstadoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\CambiarEstadoDTO.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\CambiarEstadoDTO.cs",
+              "ToolTip": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\CambiarEstadoDTO.cs",
+              "RelativeToolTip": "WebApplication1\\CambiarEstadoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T20:47:48.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T20:26:23.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Turno.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Turno.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Turno.cs",
+              "ToolTip": "C:\\Users\\Mateo\\OneDrive\\Escritorio\\Desarrollo C# .NET\\Web\\Practica\\ProyectosWeekWeb\\2 GestionTurnos\\WebApplication1\\WebApplication1\\Turno.cs",
+              "RelativeToolTip": "WebApplication1\\Turno.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T20:47:48.488Z"
             }
           ]
         },

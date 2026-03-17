@@ -42,6 +42,21 @@ namespace WebApplication1
             }
         }
 
+        public bool EliminarId(int id)
+        {
+            Turno turno = turnos.FirstOrDefault(t => t.id == id);
+
+            if (turno == null)
+            {
+                return false;
+            }
+
+            turnos.Remove(turno);
+            GuardarTurno();
+            return true;
+        }
+
+
 
         public void GuardarTurno()
         {
@@ -106,6 +121,9 @@ namespace WebApplication1
 
 
         }
+
+
+
 
     }
 }
