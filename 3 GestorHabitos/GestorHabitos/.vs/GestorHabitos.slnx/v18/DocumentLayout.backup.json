@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{10A5F756-CBD4-3E6B-E4A3-526AFB7F5767}|GestorHabitos\\GestorHabitos.csproj|solutionrelative:gestorhabitos\\controllers\\habitoscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10A5F756-CBD4-3E6B-E4A3-526AFB7F5767}|GestorHabitos\\GestorHabitos.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\3 gestorhabitos\\gestorhabitos\\gestorhabitos\\gestorhabitos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A5F756-CBD4-3E6B-E4A3-526AFB7F5767}|GestorHabitos\\GestorHabitos.csproj|solutionrelative:gestorhabitos\\gestorhabitos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10A5F756-CBD4-3E6B-E4A3-526AFB7F5767}|GestorHabitos\\GestorHabitos.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\3 gestorhabitos\\gestorhabitos\\gestorhabitos\\habito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10A5F756-CBD4-3E6B-E4A3-526AFB7F5767}|GestorHabitos\\GestorHabitos.csproj|solutionrelative:gestorhabitos\\habito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A5F756-CBD4-3E6B-E4A3-526AFB7F5767}|GestorHabitos\\GestorHabitos.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\3 gestorhabitos\\gestorhabitos\\gestorhabitos\\gestorhabitos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A5F756-CBD4-3E6B-E4A3-526AFB7F5767}|GestorHabitos\\GestorHabitos.csproj|solutionrelative:gestorhabitos\\gestorhabitos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10A5F756-CBD4-3E6B-E4A3-526AFB7F5767}|GestorHabitos\\GestorHabitos.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\3 gestorhabitos\\gestorhabitos\\gestorhabitos\\cambiarestadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "GestorHabitos\\Program.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\3 GestorHabitos\\GestorHabitos\\GestorHabitos\\Program.cs",
               "RelativeToolTip": "GestorHabitos\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T23:01:07.007Z",
               "EditorCaption": ""
@@ -61,7 +61,7 @@
               "RelativeDocumentMoniker": "GestorHabitos\\Controllers\\HabitosControllers.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\3 GestorHabitos\\GestorHabitos\\GestorHabitos\\Controllers\\HabitosControllers.cs",
               "RelativeToolTip": "GestorHabitos\\Controllers\\HabitosControllers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCYAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T23:36:21.546Z",
               "EditorCaption": ""
@@ -81,20 +81,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GestorHabitos.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\3 GestorHabitos\\GestorHabitos\\GestorHabitos\\GestorHabitos.cs",
               "RelativeDocumentMoniker": "GestorHabitos\\GestorHabitos.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\3 GestorHabitos\\GestorHabitos\\GestorHabitos\\GestorHabitos.cs",
               "RelativeToolTip": "GestorHabitos\\GestorHabitos.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAmwDsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwBsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T23:43:11.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Habito.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\3 GestorHabitos\\GestorHabitos\\GestorHabitos\\Habito.cs",
               "RelativeDocumentMoniker": "GestorHabitos\\Habito.cs",

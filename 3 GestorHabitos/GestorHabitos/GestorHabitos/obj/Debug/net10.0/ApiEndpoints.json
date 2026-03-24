@@ -11,6 +11,22 @@
   },
   {
     "ContainingType": "GestorHabitos.Controllers.HabitosControllers",
+    "Method": "CrearHabito",
+    "RelativePath": "api/Habitos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HabitoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorHabitos.Controllers.HabitosControllers",
     "Method": "EliminarColeccion",
     "RelativePath": "api/Habitos",
     "HttpMethod": "DELETE",

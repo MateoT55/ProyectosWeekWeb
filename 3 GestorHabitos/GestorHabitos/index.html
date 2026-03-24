@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gestor de Hábitos</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-bracket">[</span>
+        <span class="logo-text">HABIT<span class="logo-accent">OS</span></span>
+        <span class="logo-bracket">]</span>
+      </div>
+      <div class="header-meta">
+        <span class="status-dot"></span>
+        <span class="status-label">API conectada</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN LAYOUT -->
+  <main class="layout">
+
+    <!-- PANEL IZQUIERDO: FORMULARIO -->
+    <aside class="panel panel--form">
+      <div class="panel-header">
+        <span class="panel-number">01</span>
+        <h2 class="panel-title">Nuevo Hábito</h2>
+      </div>
+
+      <div class="form-body">
+        <div class="field">
+          <label class="field-label" for="habitName">Nombre</label>
+          <input class="field-input" type="text" id="habitName" placeholder="ej. Meditar 10 min" autocomplete="off"/>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="habitDesc">Descripción</label>
+          <textarea class="field-input field-textarea" id="habitDesc" placeholder="Descripción del hábito..."></textarea>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="habitDate">Fecha</label>
+          <input class="field-input" type="datetime-local" id="habitDate"/>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="habitEstado">Estado inicial</label>
+          <div class="select-wrapper">
+            <select class="field-input field-select" id="habitEstado">
+              <option value="0">Pendiente</option>
+              <option value="1">Cumplido</option>
+            </select>
+            <span class="select-arrow">▾</span>
+          </div>
+        </div>
+
+        <button class="btn btn--primary" id="btnCrear" onclick="crearHabito()">
+          <span class="btn-icon">+</span>
+          <span>Registrar Hábito</span>
+        </button>
+      </div>
+
+      <!-- ACCIONES GLOBALES -->
+      <div class="danger-zone">
+        <p class="danger-label">// zona peligrosa</p>
+        <button class="btn btn--danger" onclick="confirmarEliminarTodo()">
+          Eliminar todos los hábitos
+        </button>
+      </div>
+    </aside>
+
+    <!-- PANEL DERECHO: LISTA -->
+    <section class="panel panel--list">
+      <div class="panel-header">
+        <span class="panel-number">02</span>
+        <h2 class="panel-title">Mis Hábitos</h2>
+        <button class="btn btn--ghost btn--sm" onclick="cargarHabitos()" title="Actualizar">
+          <span class="refresh-icon">↻</span>
+        </button>
+      </div>
+
+      <!-- ESTADO: LOADING -->
+      <div class="state-view" id="stateLoading">
+        <div class="spinner"></div>
+        <p>Cargando hábitos...</p>
+      </div>
+
+      <!-- ESTADO: VACÍO -->
+      <div class="state-view hidden" id="stateEmpty">
+        <div class="empty-icon">◎</div>
+        <p class="empty-title">Sin hábitos registrados</p>
+        <p class="empty-sub">Creá tu primer hábito en el panel izquierdo.</p>
+      </div>
+
+      <!-- ESTADO: ERROR -->
+      <div class="state-view hidden" id="stateError">
+        <div class="error-icon">✕</div>
+        <p class="error-title">No se pudo conectar con la API</p>
+        <p class="empty-sub">Verificá que tu servidor esté corriendo en <code>https://localhost:7095</code></p>
+      </div>
+
+      <!-- TABLA DE HÁBITOS -->
+      <div class="table-wrapper hidden" id="tableWrapper">
+        <table class="habits-table">
+          <thead>
+            <tr>
+              <th>#ID</th>
+              <th>Nombre</th>
+              <th>Descripción</th>
+              <th>Fecha</th>
+              <th>Estado</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="habitosTableBody">
+            <!-- Filas generadas por JS -->
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast" id="toast"></div>
+
+  <!-- MODAL CONFIRMACIÓN -->
+  <div class="modal-overlay hidden" id="modalOverlay">
+    <div class="modal">
+      <p class="modal-title" id="modalTitle">¿Estás seguro?</p>
+      <p class="modal-body" id="modalBody">Esta acción no se puede deshacer.</p>
+      <div class="modal-actions">
+        <button class="btn btn--ghost" onclick="cerrarModal()">Cancelar</button>
+        <button class="btn btn--danger" id="modalConfirmBtn">Confirmar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

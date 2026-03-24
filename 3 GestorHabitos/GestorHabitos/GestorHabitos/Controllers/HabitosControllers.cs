@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using GestorHabitos;
+using Microsoft.AspNetCore.Mvc;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace GestorHabitos.Controllers
 {
@@ -18,6 +20,18 @@ namespace GestorHabitos.Controllers
         public IActionResult ObtenerId(int id)
         { 
             gestor.ObtenerId(id);
+            return Ok();
+        }
+
+        [HttpPost]
+        public IActionResult CrearHabito([FromBody] HabitoDTO dto)
+        { 
+            if (dto == null || string.IsNullOrWhiteSpace(dto.name) || string.IsNullOrWhiteSpace(dto.desc))
+            {
+                return BadRequest("Name y Desc Obligatorios.");
+                
+            }
+            gestor.AgregarHabito(dto.name, dto.desc, dto.estado, dto.date);
             return Ok();
         }
 
@@ -46,4 +60,11 @@ namespace GestorHabitos.Controllers
             return Ok();
         }
     }
+}
+public class HabitoDTO
+{
+    public string name { get; set; }
+    public string desc { get; set; }
+    public estadoHabit estado { get; set; }
+    public DateTime date { get; set; }
 }
