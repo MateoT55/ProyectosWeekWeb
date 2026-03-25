@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\4 GestionClientes\\GestorClientes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1ABE349F-710E-4E6F-A859-FBCBF80CE4B5}|GestorClientes\\GestorClientes.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\4 gestionclientes\\gestorclientes\\gestorclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ABE349F-710E-4E6F-A859-FBCBF80CE4B5}|GestorClientes\\GestorClientes.csproj|solutionrelative:gestorclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C51BC77E-C98C-5280-4BAC-4B618593B83C}|GestorClientes\\GestorClientes.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\4 gestionclientes\\gestorclientes\\gestorclientes\\controllers\\clientecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51BC77E-C98C-5280-4BAC-4B618593B83C}|GestorClientes\\GestorClientes.csproj|solutionrelative:gestorclientes\\controllers\\clientecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51BC77E-C98C-5280-4BAC-4B618593B83C}|GestorClientes\\GestorClientes.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\4 gestionclientes\\gestorclientes\\gestorclientes\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51BC77E-C98C-5280-4BAC-4B618593B83C}|GestorClientes\\GestorClientes.csproj|solutionrelative:gestorclientes\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51BC77E-C98C-5280-4BAC-4B618593B83C}|GestorClientes\\GestorClientes.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\4 gestionclientes\\gestorclientes\\gestorclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51BC77E-C98C-5280-4BAC-4B618593B83C}|GestorClientes\\GestorClientes.csproj|solutionrelative:gestorclientes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51BC77E-C98C-5280-4BAC-4B618593B83C}|GestorClientes\\GestorClientes.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\4 gestionclientes\\gestorclientes\\gestorclientes\\gestorclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51BC77E-C98C-5280-4BAC-4B618593B83C}|GestorClientes\\GestorClientes.csproj|solutionrelative:gestorclientes\\gestorclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\4 GestionClientes\\GestorClientes\\GestorClientes\\Program.cs",
               "RelativeDocumentMoniker": "GestorClientes\\Program.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\4 GestionClientes\\GestorClientes\\GestorClientes\\Program.cs",
               "RelativeToolTip": "GestorClientes\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T14:51:02.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\4 GestionClientes\\GestorClientes\\GestorClientes\\Controllers\\ClienteControllers.cs",
+              "RelativeDocumentMoniker": "GestorClientes\\Controllers\\ClienteControllers.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\4 GestionClientes\\GestorClientes\\GestorClientes\\Controllers\\ClienteControllers.cs",
+              "RelativeToolTip": "GestorClientes\\Controllers\\ClienteControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:00:10.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GestorClientes.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\4 GestionClientes\\GestorClientes\\GestorClientes\\GestorClientes.cs",
+              "RelativeDocumentMoniker": "GestorClientes\\GestorClientes.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\4 GestionClientes\\GestorClientes\\GestorClientes\\GestorClientes.cs",
+              "RelativeToolTip": "GestorClientes\\GestorClientes.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAiwD0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T16:43:23.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\4 GestionClientes\\GestorClientes\\GestorClientes\\Cliente.cs",
+              "RelativeDocumentMoniker": "GestorClientes\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\4 GestionClientes\\GestorClientes\\GestorClientes\\Cliente.cs",
+              "RelativeToolTip": "GestorClientes\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T16:27:43.436Z",
               "EditorCaption": ""
             }
           ]

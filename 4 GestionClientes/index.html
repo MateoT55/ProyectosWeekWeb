@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GestorClientes · Panel de Control</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;500;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-icon">◈</span>
+        <div>
+          <h1 class="brand-title">GestorClientes</h1>
+          <p class="brand-sub">Panel de Control · v1.0</p>
+        </div>
+      </div>
+      <div class="header-stats">
+        <div class="stat-chip" id="stat-total">
+          <span class="stat-label">TOTAL</span>
+          <span class="stat-value" id="count-total">—</span>
+        </div>
+        <div class="stat-chip stat-activo">
+          <span class="stat-label">ACTIVOS</span>
+          <span class="stat-value" id="count-activos">—</span>
+        </div>
+        <div class="stat-chip stat-desact">
+          <span class="stat-label">INACTIVOS</span>
+          <span class="stat-value" id="count-desact">—</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- TOAST NOTIFICATIONS -->
+  <div id="toast-container"></div>
+
+  <!-- MAIN LAYOUT -->
+  <main class="main">
+
+    <!-- LEFT PANEL: FORM -->
+    <aside class="panel panel-form">
+      <div class="panel-header">
+        <span class="panel-label">01</span>
+        <h2 class="panel-title">Nuevo Cliente</h2>
+      </div>
+
+      <form id="form-cliente" novalidate>
+        <div class="field">
+          <label class="field-label" for="inp-name">Nombre completo</label>
+          <input class="field-input" type="text" id="inp-name" placeholder="Ej: Juan García" autocomplete="off" />
+          <span class="field-error" id="err-name"></span>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="inp-email">Correo electrónico</label>
+          <input class="field-input" type="email" id="inp-email" placeholder="juan@empresa.com" autocomplete="off" />
+          <span class="field-error" id="err-email"></span>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="inp-phone">Teléfono</label>
+          <input class="field-input" type="number" id="inp-phone" placeholder="1122334455" />
+          <span class="field-error" id="err-phone"></span>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="inp-estado">Estado inicial</label>
+          <div class="select-wrapper">
+            <select class="field-input field-select" id="inp-estado">
+              <option value="0">Activo</option>
+              <option value="1">Desactivado</option>
+            </select>
+            <span class="select-arrow">▾</span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="inp-date">Fecha de registro</label>
+          <input class="field-input" type="date" id="inp-date" />
+        </div>
+
+        <button class="btn btn-primary" type="submit" id="btn-submit">
+          <span class="btn-icon">+</span>
+          <span>Registrar Cliente</span>
+          <span class="btn-loader" id="submit-loader" hidden>⟳</span>
+        </button>
+      </form>
+
+      <!-- DANGER ZONE -->
+      <div class="danger-zone">
+        <p class="danger-title">ZONA PELIGROSA</p>
+        <button class="btn btn-danger" id="btn-eliminar-todos" title="Eliminar todos los clientes">
+          <span>⚠ Eliminar Todos</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- RIGHT PANEL: TABLE -->
+    <section class="panel panel-table">
+      <div class="panel-header">
+        <span class="panel-label">02</span>
+        <h2 class="panel-title">Registro de Clientes</h2>
+        <div class="table-controls">
+          <input class="search-input" type="text" id="search-input" placeholder="Buscar cliente..." />
+          <button class="btn btn-ghost" id="btn-refresh" title="Actualizar lista">↻ Actualizar</button>
+        </div>
+      </div>
+
+      <!-- Loading State -->
+      <div class="loading-state" id="loading-state">
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-state" id="empty-state" hidden>
+        <span class="empty-icon">◌</span>
+        <p class="empty-title">Sin clientes registrados</p>
+        <p class="empty-sub">Usá el formulario para agregar el primero.</p>
+      </div>
+
+      <!-- Table -->
+      <div class="table-wrapper" id="table-wrapper" hidden>
+        <table class="table" id="tabla-clientes">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Email</th>
+              <th>Teléfono</th>
+              <th>Estado</th>
+              <th>Fecha</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="tbody-clientes">
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL: Cambiar Estado -->
+  <div class="modal-overlay" id="modal-estado" hidden>
+    <div class="modal">
+      <div class="modal-header">
+        <h3 class="modal-title">Cambiar Estado</h3>
+        <button class="modal-close" id="modal-close">✕</button>
+      </div>
+      <div class="modal-body">
+        <p>Cliente: <strong id="modal-cliente-nombre">—</strong></p>
+        <p class="modal-id-display">ID: <code id="modal-cliente-id">—</code></p>
+        <div class="field" style="margin-top: 1.5rem;">
+          <label class="field-label">Nuevo estado</label>
+          <div class="select-wrapper">
+            <select class="field-input field-select" id="modal-estado-select">
+              <option value="0">Activo</option>
+              <option value="1">Desactivado</option>
+            </select>
+            <span class="select-arrow">▾</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-ghost" id="modal-cancel">Cancelar</button>
+        <button class="btn btn-primary" id="modal-confirm">
+          <span>Confirmar Cambio</span>
+          <span class="btn-loader" id="modal-loader" hidden>⟳</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

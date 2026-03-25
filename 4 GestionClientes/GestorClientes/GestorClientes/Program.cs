@@ -8,17 +8,20 @@ builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
 
-var app = builder.Build();
 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("MiPoliticaCors", p =>
     {
         p.AllowAnyOrigin()
-        .AllowAnyHeader()
-        .AllowAnyMethod();
+         .AllowAnyHeader()
+         .AllowAnyMethod();
     });
 });
+
+
+var app = builder.Build();
+
 
 
 

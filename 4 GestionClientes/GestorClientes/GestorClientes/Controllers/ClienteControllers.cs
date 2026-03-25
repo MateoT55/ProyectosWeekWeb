@@ -12,8 +12,7 @@ namespace GestorClientes.Controllers
         [HttpGet]
         public IActionResult ObtenerColeccion()
         {
-            gestor.ObtenerColeccion();
-            return Ok();
+            return Ok(gestor.ObtenerColeccion());
         }
 
         [HttpGet("{id}")]
