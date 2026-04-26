@@ -1,0 +1,6 @@
+CREATE TABLE ToDo(
+	id INT PRIMARY KEY IDENTITY(1,1),
+	nombre VARCHAR(100) NOT NULL,
+	descripcion VARCHAR(255),
+	completada BIT NOT NULL DEFAULT 0
+)

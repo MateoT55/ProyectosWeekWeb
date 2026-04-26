@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC804A48-DF36-F545-3E4C-654D29A4B9B6}|ToDo_DB\\ToDo_DB.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\5 todo db\\todo_db\\todo_db\\gestortodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC804A48-DF36-F545-3E4C-654D29A4B9B6}|ToDo_DB\\ToDo_DB.csproj|solutionrelative:todo_db\\gestortodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC804A48-DF36-F545-3E4C-654D29A4B9B6}|ToDo_DB\\ToDo_DB.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\5 todo db\\todo_db\\todo_db\\controllers\\todocontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC804A48-DF36-F545-3E4C-654D29A4B9B6}|ToDo_DB\\ToDo_DB.csproj|solutionrelative:todo_db\\controllers\\todocontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC804A48-DF36-F545-3E4C-654D29A4B9B6}|ToDo_DB\\ToDo_DB.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\5 todo db\\todo_db\\todo_db\\contexts\\taskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC804A48-DF36-F545-3E4C-654D29A4B9B6}|ToDo_DB\\ToDo_DB.csproj|solutionrelative:todo_db\\contexts\\taskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC804A48-DF36-F545-3E4C-654D29A4B9B6}|ToDo_DB\\ToDo_DB.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\5 todo db\\todo_db\\todo_db\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC804A48-DF36-F545-3E4C-654D29A4B9B6}|ToDo_DB\\ToDo_DB.csproj|solutionrelative:todo_db\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC804A48-DF36-F545-3E4C-654D29A4B9B6}|ToDo_DB\\ToDo_DB.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\5 todo db\\todo_db\\todo_db\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC804A48-DF36-F545-3E4C-654D29A4B9B6}|ToDo_DB\\ToDo_DB.csproj|solutionrelative:todo_db\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC804A48-DF36-F545-3E4C-654D29A4B9B6}|ToDo_DB\\ToDo_DB.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\5 todo db\\todo_db\\todo_db\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC804A48-DF36-F545-3E4C-654D29A4B9B6}|ToDo_DB\\ToDo_DB.csproj|solutionrelative:todo_db\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\ToDo_DB\\Program.cs",
+              "RelativeDocumentMoniker": "ToDo_DB\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\ToDo_DB\\Program.cs",
+              "RelativeToolTip": "ToDo_DB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T18:27:01.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\ToDo_DB\\Controllers\\ToDoControllers.cs",
+              "RelativeDocumentMoniker": "ToDo_DB\\Controllers\\ToDoControllers.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\ToDo_DB\\Controllers\\ToDoControllers.cs",
+              "RelativeToolTip": "ToDo_DB\\Controllers\\ToDoControllers.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T19:11:44.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestorToDo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\ToDo_DB\\GestorToDo.cs",
+              "RelativeDocumentMoniker": "ToDo_DB\\GestorToDo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\ToDo_DB\\GestorToDo.cs",
+              "RelativeToolTip": "ToDo_DB\\GestorToDo.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T18:57:43.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ToDo.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\ToDo_DB\\Models\\ToDo.cs",
+              "RelativeDocumentMoniker": "ToDo_DB\\Models\\ToDo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\ToDo_DB\\Models\\ToDo.cs",
+              "RelativeToolTip": "ToDo_DB\\Models\\ToDo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T18:49:36.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\ToDo_DB\\appsettings.json",
+              "RelativeDocumentMoniker": "ToDo_DB\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\ToDo_DB\\appsettings.json",
+              "RelativeToolTip": "ToDo_DB\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-06T18:44:56.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\ToDo_DB\\Contexts\\TaskContext.cs",
+              "RelativeDocumentMoniker": "ToDo_DB\\Contexts\\TaskContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\5 ToDo DB\\ToDo_DB\\ToDo_DB\\Contexts\\TaskContext.cs",
+              "RelativeToolTip": "ToDo_DB\\Contexts\\TaskContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T18:39:11.124Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 100,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

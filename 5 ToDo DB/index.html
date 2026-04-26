@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">Task</span>
+      </div>
+      <p class="header-sub">Manage your tasks, simply.</p>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Add Task Form -->
+    <section class="card form-card">
+      <h2 class="section-title">New Task</h2>
+      <div class="form-group">
+        <label for="input-name">Task name <span class="required">*</span></label>
+        <input type="text" id="input-name" placeholder="e.g. Gym" maxlength="100" />
+      </div>
+      <div class="form-group">
+        <label for="input-desc">Description</label>
+        <textarea id="input-desc" placeholder="Optional details..." rows="3" maxlength="300"></textarea>
+      </div>
+      <button class="btn btn-primary" id="btn-add">Add Task</button>
+      <p class="form-error" id="form-error"></p>
+    </section>
+
+    <!-- Task List -->
+    <section class="card list-card">
+      <div class="list-header">
+        <h2 class="section-title">Tasks</h2>
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="pending">Pending</button>
+          <button class="filter-btn" data-filter="done">Done</button>
+        </div>
+      </div>
+
+      <div id="task-list" class="task-list">
+        <p class="empty-msg" id="empty-msg">No tasks found.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Edit Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <h3 class="modal-title">Edit Task</h3>
+      <input type="hidden" id="edit-id" />
+      <div class="form-group">
+        <label for="edit-name">Task name <span class="required">*</span></label>
+        <input type="text" id="edit-name" maxlength="100" />
+      </div>
+      <div class="form-group">
+        <label for="edit-desc">Description</label>
+        <textarea id="edit-desc" rows="3" maxlength="300"></textarea>
+      </div>
+      <p class="form-error" id="edit-error"></p>
+      <div class="modal-actions">
+        <button class="btn btn-secondary" id="btn-cancel-edit">Cancel</button>
+        <button class="btn btn-primary" id="btn-save-edit">Save Changes</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

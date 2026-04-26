@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\6 Gesti\u00F3n de Notas (AVANZADO)\\GestionNotas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0370AC-F7A0-4847-B6DB-C257A9896566}|GestionNotas\\GestionNotas.csproj|c:\\users\\usuario\\desktop\\plan\\proyecto web\\practica\\proyectosweekweb\\6 gesti\u00F3n de notas (avanzado)\\gestionnotas\\gestionnotas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0370AC-F7A0-4847-B6DB-C257A9896566}|GestionNotas\\GestionNotas.csproj|solutionrelative:gestionnotas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 100,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\6 Gesti\u00F3n de Notas (AVANZADO)\\GestionNotas\\GestionNotas\\Program.cs",
+              "RelativeDocumentMoniker": "GestionNotas\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Plan\\Proyecto Web\\Practica\\ProyectosWeekWeb\\6 Gesti\u00F3n de Notas (AVANZADO)\\GestionNotas\\GestionNotas\\Program.cs",
+              "RelativeToolTip": "GestionNotas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T00:47:24.27Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 100,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
